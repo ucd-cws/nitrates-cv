@@ -1,8 +1,8 @@
-# nitrates-expanded-cv  
+# Nitrates-CV  
 
-This projects distributes the nitrates data for the expanded Central Valley.  
+This project distributes the nitrates data for the Central Valley. These layers were the final GNLM outputs created in Fall 2017. See http://ucd-cws.github.io/nitrates/ for more information and interactive maps.   
 
-## data
+## Data
 
 | Variable                                                                                                  | Raster          |
 |-----------------------------------------------------------------------------------------------------------|-----------------|
