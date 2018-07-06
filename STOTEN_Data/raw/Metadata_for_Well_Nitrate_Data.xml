@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Katherine M. Ransom</origin>
+        <origin>Bernard T. Nolan</origin>
+        <origin>Andrew M. Bell</origin>
+        <origin>JoAnn M. Gronberg</origin>
+        <pubdate>2017</pubdate>
+        <title>Groundwater nitrate data and ascii grids of predicted nitrate and model inputs for the Central Valley aquifer, California, USA: nitrate data from sampled wells</title>
+        <geoform>Tabular Digital Data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F7V40SDN</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Katherine M. Ransom; University of California, Davis</origin>
+            <origin>Bernard T. Nolan; USGS</origin>
+            <origin>Jon Traum; USGS</origin>
+            <origin>Claudia C. Faunt; USGS</origin>
+            <origin>Andrew M. Bell; University of California, Davis</origin>
+            <origin>Jo Ann M. Gronberg; USGS</origin>
+            <origin>David C. Wheeler; Virginia Commonwealth University</origin>
+            <origin>Celia Rosecrans; USGS</origin>
+            <origin>Bryant Jurgens; USGS</origin>
+            <origin>Kenneth Belitz; USGS</origin>
+            <origin>Sandra Eberts; USGS</origin>
+            <origin>George Kourakos; University of California, Davis</origin>
+            <origin>Thomas Harter; University of California, Davis</origin>
+            <pubdate>2017</pubdate>
+            <title>A hybrid machine learning model to predict and visualize nitrate concentration throughout the Central Valley aquifer, California, USA</title>
+            <geoform>Publication (Journal)</geoform>
+            <serinfo>
+              <sername>Science of the Total Environment Journal</sername>
+              <issue>Volume 601-602</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Amsterdam, The Netherlands</pubplace>
+              <publish>Elsevier B.V.</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.1016/j.scitotenv.2017.05.192</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This public data release contains two ascii grids comprising predicted nitrate concentrations (as NO3-N, mg/L) at two depth zones associated with private and public drinking water supply wells, respectively, in the Central Valley, California; raster files of the 25 predictor variables in the final statistical model; and groundwater nitrate data from the sampled wells used to train and test the model. Both prediction grids are bound by the alluvial bed boundary that defines the Central Valley. The prediction grids were produced with Boosted Regression Tree (BRT) modeling methods within a statistical modeling framework using the statistical modeling software R (R Core Team, https://www.r-project.org/) and linear interpolation within Oasis Montaj software (Geosoft, version 9.0.2). The response variable was a set of nitrate concentrations in wells located within the Central Valley. We compiled the database of well nitrate measurements from private supply and public supply wells. Nitrate data came from two sources, the University of California at Davis (UC Davis) and the U.S. Geological Survey (USGS). Prior to statistical modeling, wells were spatially declustered using an equal area grid cell approach to reduce effects on the modeling of oversampling in areas of intensive agricultural land use. A total of 5170 wells were selected, 3508 of which were used for training and 1662 of which served as hold-out. A database of 25 predictor variables was used for the final BRT model and included well characteristics, land use, climate, soil properties, aquifer properties, depth to the water table, and estimates of nitrogen loading and groundwater age. Based on the gridded predictor variables and final model, nitrate predictions were made using the R raster package for 17 depth zones spaced throughout the aquifer (at 15.24, 30.48, 45.72, 60.96, 76.20, 91.44, 106.68, 121.92, 152.40, 182.88, 213.36, 243.84, 274.32, 304.80, 365.76, 426.72, and 487.68 m below ground surface) to create input layers for 3D mapping with Oasis Montaj software version 9.0.2 (GeoSoft, Inc., 2016). The nitrate prediction grids for each of the 17 depth zones were imported into the Oasis Montaj mapping environment software for 3D interpolation and visualization. Each grid was assigned a vertical thickness of 1 m and linear interpolation was used between each of the layers at a vertical resolution of 1 m to produce a complete representation of predicted nitrate concentration at depth throughout the Central Valley. For visualization purposes, nitrate predictions were extracted from the interpolated model at 54.86 m and at 121.92 m deep. These depths correspond to the average total depths of private and public wells for the training wells.</abstract>
+      <purpose>Because private wells are not regulated in California, it is important to determine high risk and high priority areas in order to focus future outreach and educational efforts aimed at private well owners. Public supply wells also are at risk, and the cost of treating contaminated groundwater or relocating such wells is high, especially for low-income or disadvantaged communities.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20000101</begdate>
+          <enddate>20111231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-122.90405272946</westbc>
+        <eastbc>-118.53149413589</eastbc>
+        <northbc>40.630630082643</northbc>
+        <southbc>34.957995309646</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>groundwater</themekey>
+        <themekey>mathematical modeling</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Nitrate</themekey>
+        <themekey>Boosted regression trees</themekey>
+        <themekey>Machine learning</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>United States</placekey>
+        <placekey>California</placekey>
+        <placekey>Central Valley</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>None. Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Bernard T Nolan</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop 413, 12201 Sunrise Valley Dr</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>703-648-5666</cntvoice>
+        <cntemail>btnolan@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>USGS National Water-Quality Assessment (NAWQA) Project</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1 (Build 4959) Service Pack N/A (Build N/A)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This set of groundwater nitrate data is comprised of data collected by multiple agencies and quality control of chemical analysis was conducted at each agency or laboratory which analyzed data.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>For the UCD data portion of the well nitrate measurements, when multiple wells were assigned to the same location within the dataset, one well was randomly chosen to represent that location. See Ransom, K. M., Bell, A. M., Barber, Q. E., Kourakos, G., and Harter, T.: A Bayesian Approach to Infer Nitrogen Loading Rates from Crop and Landuse Types Surrounding Private Wells in the Central Valley, California, Hydrol. Earth Syst. Sci. Discuss., doi:10.5194/hess-2017-39, in review, 2017.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2016</pubdate>
+            <title>USGS Groundwater Data for the Nation:  U.S. Geological Survey National Water Information System</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://waterdata.usgs.gov/nwis/gw</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20101231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S Environmental Protection</origin>
+            <pubdate>2016</pubdate>
+            <title>USEPA STOrage and RETrieval and Water Quality eXchange: U.S Environmental Protection Agency STORET electronic data system</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S Environmental Protection</publish>
+            </pubinfo>
+            <onlink>https://www.epa.gov/waterdata/storage-and-retrieval-and-water-quality-exchange</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20101231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Central Valley Regional Water Quality Control Board</origin>
+            <pubdate>2016</pubdate>
+            <title>CASTINGS, Central Valley Regional Water Quality Control Board (CVRWQCB) Dairy Monitoring Program</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Sacramento, CA</pubplace>
+              <publish>Central Valley Regional Water Quality Control Board</publish>
+            </pubinfo>
+            <onlink>http://www.waterboards.ca.gov/centralvalley/water_issues/confined_animal_facilities/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20101231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Lockhart, K., King, A. M., and Harter, T</origin>
+            <pubdate>201308</pubdate>
+            <title>Identifying sources of groundwater nitrate contamination in a large alluvial groundwater basin with highly diversified intensive agricultural production</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Amsterdam, The Netherlands</pubplace>
+              <publish>Journal of Contaminant Hydrology</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.1016/j.jconhyd.2013.05.008</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20120101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>California State Water Resources Control Board</origin>
+            <pubdate>2016</pubdate>
+            <title>Groundwater Ambient Monitoring and Assessment Domestic Well Program (GAMA) for Tulare, Tehama, El Dorado, and Yuba County Focus Areas</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Sacramento, CA</pubplace>
+              <publish>California State Water Resources Control Board</publish>
+            </pubinfo>
+            <onlink>http://www.waterboards.ca.gov/gama/geotracker_gama.shtml</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20020101</begdate>
+              <enddate>20070101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Fresno County Environmental Health</origin>
+            <pubdate>2016</pubdate>
+            <title>Groundwater Nitrate Data for Fresno County</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Fresno, CA</pubplace>
+              <publish>Fresno County Environmental Health</publish>
+            </pubinfo>
+            <onlink>http://www.co.fresno.ca.us/DivisionPage.aspx?id=908</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20101231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tulare County Environmental Health</origin>
+            <pubdate>2016</pubdate>
+            <title>Groundwater Nitrate Data for Tulare County</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Visalia, CA</pubplace>
+              <publish>Tulare County Environmental Health</publish>
+            </pubinfo>
+            <onlink>http://www.tularecountyeh.org/eh/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20101231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Department of Pesticide Regulations (DPR) for Fresno and Tulare Counties</origin>
+            <pubdate>2016</pubdate>
+            <title>Groundwater Nitrate Data for Tulare and Fresno Counties</title>
+            <geoform>Other</geoform>
+            <pubinfo>
+              <pubplace>Sacramento, CA</pubplace>
+              <publish>Department of Pesticide Regulations (DPR) for Fresno and Tulare Counties</publish>
+            </pubinfo>
+            <onlink>http://www.cdpr.ca.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20101231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>groundwater nitrate data (LNN03)</srccitea>
+        <srccontr>Nitrate data used to train and test the boosted regression tree model</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Compiled groundwater nitrate measurements from private supply and public supply wells in the Central Valley. Nitrate data came from two main sources, the University of California at Davis (UC Davis) and those previously compiled by the U.S. Geological Survey (USGS) (Burow et al. 2013). Domestic well measurements from UC Davis (Ransom et al. 2017) sampled during 2000-2011 were used. The UC Davis dataset included wells from the Groundwater Ambient Monitoring and Assessment domestic well program (GAMA) and the Central Valley Regional Water Quality Control Board dairy monitoring program. The methods described in Ransom et al. (2017) for the years 2000-2011 resulted in 2407 domestic wells for use in the BRT model. These methods included randomly selecting a single well from multiple wells with overlapping locations (Ransom et al. 2017). Well nitrate measurements with a zero value were replaced with the most common detection limit of 0.33 mg/L NO3-N prior to imputation. Additional nitrate data for the years 2000-2010 came from another 4788 wells comprising the following sources: the California State Water Resources Control Board Division of Drinking Water (SWRCB-DDW) (4307 wells); the USGS National Water Information System (NWIS) (471 wells); and the USEPA Storage and Retrieval database (STORET) (10 wells) (Burow et al. 2013). The SWRCB-DDW and STORET wells were predominantly used for public supply, and most of the NWIS wells were used for domestic or monitoring purposes. Duplicate wells in the combined data set were removed and a multiple imputation routine (Lubin et al., 2004) was used to impute values of censored nitrate data below the method detection limit (DL). For censored values, the lower bound was set to missing and the upper bound was set to the DL, which varied from 0.05 to 8.9 mg/L depending on the source of the data. Following imputation, median nitrate concentration was computed for each well and was natural log transformed prior to boosted regression tree modeling. Wells then were spatially declustered using an equal area grid cell approach (Belitz et al. 2010) to reduce effects on the modeling of oversampling in areas of intensive agricultural land use. We randomly sampled domestic and public supply wells in 100 km2 grid cells at up to the same rate (i.e., the maximum number of wells taken per grid cell) to maintain the proportions of each well type in the training data set. Wells not selected for training were randomly sampled in the same manner to create an independent (hold-out) data set for model testing. A total of 5170 wells was selected, 3508 of which were used for training and 1662 of which served as hold-out.</procdesc>
+        <procdate>20160531</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Well_Nitrate_Data.txt</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>WELLID</attrlabl>
+        <attrdef>Internally assigned number (i.e., it does not reflect well name or location)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>5170</rdommax>
+            <attrunit>number</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LNN03</attrlabl>
+        <attrdef>Natural log of nitrate as nitrogen (ln(NO3-N))</attrdef>
+        <attrdefs>Various sources</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5.61927</rdommin>
+            <rdommax>4.94876</rdommax>
+            <attrunit>natural log</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>Indicates whether the well was used for model training (Training) or holdout (Test)</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Train</edomv>
+            <edomvd>Wells were randomly sampled domestic and public supply wells in 100 km2 grid cells at up to the same rate (i.e., the maximum number of wells taken per grid cell) to maintain the proportions of each well type in the training data set; 3508 of 5170 were used for training</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Test</edomv>
+            <edomvd>Wells not selected for training were randomly sampled in the same manner to create an independent (hold-out) data set for model testing; 1662 of 5170 served as hold-out</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Distributor assumes no liability for misuse of data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ZIP</formname>
+          <formvern>none</formvern>
+          <formspec>ASCII</formspec>
+          <formcont>This WinZip file contains the ASCII test files as well as the associated metadata file.</formcont>
+          <transize>12.0</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://sciencebase.usgs.gov/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20170515</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jennifer B Sharpe</cntper>
+          <cntorg>U.S. Geological Survey, Midwest Region</cntorg>
+        </cntperp>
+        <cntpos>Geographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>405 N. Goodwin Avenue</address>
+          <city>Urbana</city>
+          <state>IL</state>
+          <postal>61801</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>217-328-9731</cntvoice>
+        <cntfax>217-328-9770</cntfax>
+        <cntemail>jbsharpe@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
