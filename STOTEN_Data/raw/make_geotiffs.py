@@ -37,6 +37,8 @@ for filename in txt_files:
 		print("Failed to make TIF for {}".format(filename))
 		continue
 
+	arcpy.DefineProjection_management(new_tif, coor_system=new_prj)
+
 
 
 
