@@ -10,6 +10,7 @@ processing_folder = os.path.join(base_folder, "processing")
 
 txt_files = [os.path.join(base_folder, filename) for filename in os.listdir(base_folder) if filename.endswith(".asc")]
 
+arcpy.env.overwriteOutput = True
 
 def make_new_name(full_path, extension):
 	return os.path.join(base_folder, "{}.{}".format(os.path.basename(full_path)[:-4], extension))
@@ -38,8 +39,6 @@ for filename in txt_files:
 		continue
 
 	arcpy.DefineProjection_management(new_tif, coor_system=new_prj)
-
-
 
 
 asc_files = [os.path.join(base_folder, filename) for filename in os.listdir(base_folder) if filename.endswith(".asc")]
