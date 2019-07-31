@@ -67,6 +67,7 @@ Harter, T., K. Dzurella, G. Kourakos, A. Hollander, A. Bell, N. Santos, Q. Hart,
  University of California Davis, 333p., http://groundwaternitrate.ucdavis.edu.
 
 STOTEN Data is from:
+
 Ransom, K. M., B. T. Nolan, J. A. Traum, C. C. Faunt, A. M. Bell, J. A. M. Gronberg, D. C. Wheeler, C. Z. Rosecrans, B. Jurgens, G. E. Schwarz, K. Belitz, S. M. Eberts, G. Kourakos, and T. Harter. 2017. A hybrid machine learning model to predict and visualize nitrate concentration throughout the Central Valley aquifer, California, USA. Science of The Total Environment 601–602:1160–1172.
 
 
