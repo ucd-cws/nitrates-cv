@@ -36,6 +36,13 @@ still making data available for visualization and processing.
 | Actual Runoff                                                                                             | Nrunoff_actual  |
 | Potential Groundwater Loading from Septic Systems                                                         | Nseptic         |
 
+# STOTEN Data
+In the folder `STOTEN_data`, this repository includes the data obtained from https://www.sciencebase.gov/catalog/item/58c1d920e4b014cc3a3d3b63.
+The data were retrieved on 7/6/2018 and processed from the original text/ascii files into geotiffs and cloud-optimized geotiffs. Metadata and projection information were copied to each raster from master files.
+
+Folders:
+* raw: includes the original data, copied metadata, copied projections, and generated geotiffs. Also includes processing scripts
+* cogt: includes [cloud-optimized geotiffs](http://www.cogeo.org/) and metadata.
 
 # Citations
 Reports for all data can be found at http://groundwaternitrate.ucdavis.edu
@@ -59,8 +66,12 @@ Harter, T., K. Dzurella, G. Kourakos, A. Hollander, A. Bell, N. Santos, Q. Hart,
  Education Program, Projects 11-0301 and 15-0454, California Department of Food and Agriculture and
  University of California Davis, 333p., http://groundwaternitrate.ucdavis.edu.
 
+STOTEN Data is from:
+Ransom, K. M., B. T. Nolan, J. A. Traum, C. C. Faunt, A. M. Bell, J. A. M. Gronberg, D. C. Wheeler, C. Z. Rosecrans, B. Jurgens, G. E. Schwarz, K. Belitz, S. M. Eberts, G. Kourakos, and T. Harter. 2017. A hybrid machine learning model to predict and visualize nitrate concentration throughout the Central Valley aquifer, California, USA. Science of The Total Environment 601–602:1160–1172.
+
+
 # Processing
-For processing, combination and metadata were set with arcpy and arcpy_metadata
+For processing, combination and metadata were set with arcpy and [arcpy_metadata](https://github.com/ucd-cws/arcpy_metadata)
 using scripts available in https://github.com/ucd-cws/nitrates. Where possible,
 data were translated into cloud-optimized GeoTIFFs for export
 using GDAL 2.2 via Bash on Ubuntu on Windows 10
